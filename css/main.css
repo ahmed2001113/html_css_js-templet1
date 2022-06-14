@@ -1,0 +1,720 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding : 0;
+}
+header{
+    background-image:linear-gradient(to top,rgba(0,0,0,.7),rgba(0,0,0,.7) ),url(https://fervent-feynman-e04848.netlify.app/images/header2.jpg) ;
+    background-size:cover ;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+h1{
+    color:white;
+    text-transform: uppercase;
+letter-spacing: -1px;
+font-family: sans-serif;
+margin-left: 50px;
+}
+.nav{
+    position:absolute;
+    margin-top: -80px;
+    margin-left: 620px;
+}
+.nav li{
+    display: inline-block;
+list-style: none;
+height: 40px;
+margin-left: 25px;
+}
+.nav li:hover{
+    border-bottom:2px solid #1abc9c ;
+}
+.nav li a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform:capitalize;
+    font-family: sans-serif;
+}
+.nav li a:hover{
+    color:#1abc9c ;
+}
+.active1{
+    color:#1abc9c !important;
+}
+.header2{
+    height: 160px;
+    width: 52%;
+    margin: auto;
+margin-top: 120px;
+}
+.hheader{
+    color: white;
+    width: 50%;
+font-size:60px;
+font-family: sans-serif;
+text-align: right;
+float: left;
+}
+.h2header{
+    color: #1abc9c;
+    width: 48%;
+font-size:60px;
+font-family: sans-serif;
+text-align:left;
+text-transform:capitalize;
+float: left;
+ margin-left: 11px; 
+}
+.header2 p{
+    text-align: center;
+    color: whitesmoke;
+font-size: 20px;
+font-family: sans-serif;
+} 
+.icon{
+    color: #1abc9c;
+font-size: 50px;
+}
+.section1{
+    width: 90%;
+    height: 500px;
+    margin: auto;
+border-bottom: 2PX SOLID rgb(212, 211, 211) ; ;}
+.div{
+    width: 100%;
+    height: 50px;
+}
+.h3s1{
+    font-size: 30px;
+    font-family: sans-serif;
+border-bottom:3px solid black ;
+width: 4%;
+float: left;
+}
+.h33s1{
+    font-size: 30px;
+    font-family: sans-serif;
+    width: 94%;
+    float: left;
+margin-left: 10px;
+clear: right;
+}
+.ds1{
+    width: 33%;
+    height: 150px;
+float: left;
+}
+.leftd{
+width: 25%;
+float: left;
+margin-top: 20px;
+}
+.rightd{
+    width: 70%;
+    height: 100px;
+    float: left;
+    
+}
+.rightd h3{
+    color:rgb(88, 83, 83) ;
+}
+.rightd p{
+color:rgb(136, 136, 136) ;
+}
+.section2{
+    
+    width: 90%;
+    height: 300px;
+    margin: auto;
+}
+.lds2{
+    width: 30%;
+    height: 200px;
+float: left;
+margin-top: 20px;
+}
+.div2{
+  
+    width: 100%;
+    height: 50px;
+    float: left;
+}
+.h3s2{
+    height: 100%;
+    font-size: 30px;
+    font-family: sans-serif;
+border-bottom:3px solid black ;
+width: 14%;
+
+float: left;
+}
+.h33s2{
+ 
+    font-size: 30px;
+    font-family: sans-serif;
+    width: 86%;
+    float: left;
+    
+}
+.lds2 p{
+    color:rgb(212, 211, 211) ;
+}
+.rds2{
+    width: 70%;
+    height: 200px;
+float: left;
+margin-top: 50px;
+}
+.imgs{
+    background-color: yellowgreen;
+    width: 22%;
+    height: 100%;
+    margin-left: 20px;
+float: left; 
+}
+.img{
+    width: 100%;
+    height: 100%; 
+}
+.imgd{
+    width: 100%;
+    height: 100%;
+background-color: rgb(26, 188, 156);
+opacity: 0;
+transform:translate(0,-100%) ;
+}
+.imgd:hover {
+    opacity:0.8 ; 
+}
+.imgd p{
+    color: white;
+    margin-top: 65px;
+    margin-left: 60px;
+    font-family: sans-serif;
+    font-size: 25px;
+}
+.section3{
+    width: 100%;
+    height: 400px;
+    background-image: linear-gradient(to left, rgba(0,0,0,.8),rgba(0,0,0,.8)), url(https://fervent-feynman-e04848.netlify.app/images/keyboard.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+.section3 h2{
+    color: white;
+    margin-top: 70px;
+    font-size: 40px;
+text-align: center;
+margin-bottom: 70px;
+}
+.section3 p{
+    color: #d0d0d0;
+    text-align: center;
+font-size: 20px;
+}
+.section3 h3{
+    color:rgb(26, 188, 156) ;
+    text-align: center;
+    font-size: 40px;
+}
+.section4{
+    width: 100%;
+    height: 700px;
+    box-sizing: border-box;
+    padding-left:60px ;
+}
+.container h2::after{
+    display: block;
+    content: "";
+    border-bottom:2px solid black ;
+width: 50px;
+}
+.container ul li{
+    display: inline-block;
+    list-style: none;
+    color: rgb(108, 108, 108);
+    font-size: 25px;
+    margin-right: 10px;
+border: 1px solid rgb(108, 108, 108);
+padding: 10px;
+}
+.container ul li:hover{
+    background-color:rgb(26, 188, 156) ;
+    color: white;
+}
+.active2{
+    background-color:rgb(26, 188, 156) ;
+    color: white;
+}
+.imgs2{
+    width: 100%;
+    height: 500px;
+}
+.imghover{
+    width: 32%;
+    float: left;
+    height: 50%;
+    margin:0px 10px 10px 0px ;
+}
+.img2{
+    width: 100%;
+    height: 100%;
+}
+.imgover{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(26, 188, 156);
+transform: translate(0,-100%);
+float: left;
+opacity: 0;
+}
+.imgover:hover{
+    opacity: 0.8;
+}
+.imgover p{
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 30px;
+}
+.heart{
+    color: white;
+font-size: 20px;
+float: right;
+margin-right: 10px;
+margin-top: 20px;
+}
+footer{
+    height: 400px;
+    width: 100%;
+background-color: rgb(35,35,35);
+color: rgb(108, 108, 108);
+font-size: 18px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+box-sizing: border-box;
+padding: 50px 80px 20px 80px;
+margin-top: 50px;
+}
+.footer1{
+width: 25%;
+float: left;
+}
+.facebook{
+    color: rgb(108, 108, 108);
+    font-size: 25px;
+    margin-right: 10px;
+border: 1px solid rgb(108, 108, 108);
+padding: 10px;
+}
+.footer1 h4{
+    color: white;
+}
+.footer2 h4{
+    color: white;
+}
+.footer2{
+    width: 25%;
+    float: left;
+}
+.footer2 p{
+    color: rgb(204, 204, 204);
+    display: inline-block;
+    padding: 10px;
+border:1px solid rgb(204, 204, 204);
+margin-right: 5px;
+float: left;
+}
+.footer3{
+    width: 25%;
+float: left;
+}
+.footer3 h4{
+    color: white;
+}
+.footerimg img{
+    background-color: aqua;
+    width:200px; 
+    height:120px;
+}
+
+.footer4{
+    width: 25%;
+    float: left;
+clear: right;
+}
+.footer4 h4{
+    color: white;
+}
+.footer4 p::after{
+    display: block;
+    content: "";
+    border-bottom:1px solid rgb(108, 108, 108) ;
+    width: 100%;
+    margin-top: 10px;
+}
+.endf{
+    width: 100%;
+    height: 20px;
+text-align: center;
+color: white;
+float: left;;
+}
+@media (max-width:500px) {
+    body{
+        width: 500px;
+        box-sizing: border-box;
+    }
+    header{
+        background-image:linear-gradient(to top,rgba(0,0,0,.7),rgba(0,0,0,.7) ),url(https://fervent-feynman-e04848.netlify.app/images/header2.jpg) ;
+        background-size:cover ;
+        width: 500px;
+        height: 50vh;
+        position: relative;
+    }
+    h1{
+        color:white;
+        text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    margin-left: 10px;
+font-size: 12px;    
+}
+    .nav{
+    position:absolute;
+    margin-top: -40px;
+     margin-left: 100px; 
+    width: 70%;
+  
+    }
+    .nav li{
+        display: inline-block;
+    list-style: none;
+     height: 40px; 
+    }
+    .nav li:hover{
+        border-bottom:2px solid #1abc9c ;
+    }
+    .nav li a{
+        color: whitesmoke;
+    text-decoration: none;
+    font-size: 12px;
+    text-transform:capitalize;
+    font-family: sans-serif;
+    }
+    .nav li a:hover{
+        color:#1abc9c ;
+    }
+    .header2{
+        height: 80px;
+        width: 52%;
+        margin: auto;
+    margin-top: 60px;
+    }
+    .hheader{
+        color: white;
+        width: 47%;
+    font-size:15px;
+    font-family: sans-serif;
+    text-align: right;
+    float: left;
+    }
+    .h2header{
+        color: #1abc9c;
+        width: 48%;
+    font-size:15px;
+    font-family: sans-serif;
+    text-align:left;
+    text-transform:capitalize;
+    float: left;
+     margin-left: 2px;
+    }
+    .header2 p{
+        text-align: center;
+        color: whitesmoke;
+    font-size: 10px;
+    font-family: sans-serif;
+    } 
+    .icon{
+        color: #1abc9c;
+    font-size: 14px;
+    }
+    .section1{
+height: 400px;
+        width: 100%;
+        margin: auto;
+    border-bottom: 2PX SOLID rgb(212, 211, 211) ; ;}
+    .div{
+        width: 100%;
+margin-bottom: -50PX;    
+}
+    .h3s1{
+        font-size: 15px;
+        font-family: sans-serif;
+    border-bottom:3px solid black ;
+    width: 4%;
+    float: left;    
+}
+    .h33s1{
+        font-size: 15px;
+        font-family: sans-serif;
+        width: 90%;
+        float: left;
+    margin-left: 10px;
+    clear: right;    
+}
+    .ds1{
+        width: 33%;
+        height: 150px;
+    float: left;
+    }
+    .leftd{
+    width: 25%;
+    float: left;
+    margin-top: 10px;
+    }
+    .rightd{
+        width: 70%;
+        height: 50px;
+        float: left;   
+    }
+    .rightd h3{
+        color:rgb(88, 83, 83) ;
+ font-size: 10px;
+    }
+    .rightd p{
+    color:rgb(136, 136, 136) ;
+font-size: 10px; 
+}
+.section2{   
+    height: 210px;
+    width: 100%;
+    margin: auto;
+}
+.lds2{
+    width: 30%;
+float: left;
+margin-top: 5Px;
+}
+.div2{
+    width: 100%;
+    height: 25px;
+    float: left;
+}
+.h3s2{
+    height: 100%;
+    font-size: 15px;
+    font-family: sans-serif;
+border-bottom:3px solid black ;
+width: 20%;
+float: left;
+}
+.h33s2{
+    font-size: 15px;
+    font-family: sans-serif;
+    width: 80%;
+    float: left;
+}
+.lds2 p{
+    margin-top: -40px;
+    color:rgb(212, 211, 211) ;
+font-size: 8px;
+}
+.rds2{
+    width: 70%;
+    height: 100px;
+float: left;
+margin-top: 25px;
+}
+.imgs{
+    background-color: yellowgreen;
+    width: 20%;
+    height: 100%;
+    margin-left: 10px;
+float: left; 
+}
+.img{
+    width: 100%;
+    height: 100%; 
+}
+.imgd{
+    width: 100%;
+    height: 100%;
+background-color: rgb(26, 188, 156);
+opacity: 0;
+transform:translate(0,-100px) ;
+}
+.imgd:hover {
+    opacity:0.8 ; 
+}
+.imgd p{
+    text-align: center;
+    color: white;
+    margin:50% auto;
+    font-family: sans-serif;
+    font-size: 8px;
+}
+.section3{
+    width: 100%;
+    height: 200px;
+    background-image: linear-gradient(to left, rgba(0,0,0,.8),rgba(0,0,0,.8)), url(https://fervent-feynman-e04848.netlify.app/images/keyboard.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+.section3 h2{
+    color: white;
+    margin-top: 35px;
+    font-size: 15px;
+text-align: center;
+margin-bottom: 35px;
+}
+.section3 p{
+    color: #d0d0d0;
+    text-align: center;
+font-size: 10px;
+}
+.section3 h3{
+    color:rgb(26, 188, 156) ;
+    text-align: center;
+    font-size: 10px;
+}
+.section4{
+    width: 100%;
+    height: 400px;
+    box-sizing: border-box;
+    padding-left:60px ;
+}
+.container h2::after{
+    display: block;
+    content: "";
+    border-bottom:2px solid black ;
+width: 20px;
+}
+.container ul li{
+    display: inline-block;
+    list-style: none;
+    color: rgb(108, 108, 108);
+    font-size: 20px;
+    margin-right: 5px;
+border: 1px solid rgb(108, 108, 108);
+padding: 8px;
+}
+.container ul li:hover{
+    background-color:rgb(26, 188, 156) ;
+    color: white;
+}
+.imgs2{
+    width: 100%;
+    height: 250px;
+}
+.imghover{
+    width: 32%;
+    float: left;
+    height: 50%;
+    margin:0px 5px 5px 0px ;
+}
+.img2{
+    width: 100%;
+    height: 100%;
+}
+.imgover{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(26, 188, 156);
+transform: translate(0,-100%);
+float: left;
+opacity: 0;
+}
+.imgover:hover{
+    opacity: 0.8;
+}
+.imgover p{
+    color: white;
+    text-align: center;
+    margin-top: 45px;
+    font-size: 15px;
+}
+.heart{
+    color: white;
+font-size: 12px;
+margin-top: 9px;
+}
+footer{
+    height: 250px;
+    width: 100%;
+background-color: rgb(35,35,35);
+color: rgb(108, 108, 108);
+font-size: 9px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+box-sizing: border-box;
+padding: 10px 20px 10px 20px;
+margin-top: 20px;
+}
+.footer1{
+width: 25%;
+float: left;
+}
+.facebook{
+    color: rgb(108, 108, 108);
+    font-size: 12px;
+    margin-right: 5px;
+border: 1px solid rgb(108, 108, 108);
+padding: 5px;
+}
+.footer1 h4{
+    color: white;
+}
+.footer2 h4{
+    color: white;
+}
+.footer2{
+    width: 25%;
+    float: left;
+}
+.footer2 p{
+    color: rgb(204, 204, 204);
+    display: inline-block;
+    padding: 5px;
+border:1px solid rgb(204, 204, 204);
+margin-right: 5px;
+float: left;
+}
+.footer3{
+    width: 25%;
+float: left;
+}
+.footer3 h4{
+    color: white;
+}
+.footerimg img{
+    background-color: aqua;
+    width:100px; 
+    height:60px;
+}
+.footer4{
+    width: 25%;
+    float: left;
+clear: right;
+}
+.footer4 h4{
+    color: white;
+}
+.footer4 p::after{
+    display: block;
+    content: "";
+    border-bottom:1px solid rgb(108, 108, 108) ;
+    width: 100%;
+    margin-top: 10px;
+}
+.endf{
+    width: 100%;
+    height: 20px;
+text-align: center;
+color: white;
+float: left;;
+}
+}
